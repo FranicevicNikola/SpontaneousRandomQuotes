@@ -8,7 +8,7 @@ ios_app_id                                : 1538265374                          
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                     # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+presskit_download_link                    : https://nikolafranicevic.com              # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -101,7 +101,7 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#000000"
 
-feature_icons_foreground_color            : "#1d63ea"
+feature_icons_foreground_color            : "#000000"
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#000000"
