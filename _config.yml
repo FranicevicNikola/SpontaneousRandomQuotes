@@ -42,7 +42,7 @@ features                                  :
     fontawesome_icon_name                 : magic
 
   - title                                 : Get Spontaneous reminders
-    description                           : Get notified with random quotes daily
+    description                           : Get notified with random quotes every day.
     fontawesome_icon_name                 : bell
 
   - title                                 : Save Quotes
