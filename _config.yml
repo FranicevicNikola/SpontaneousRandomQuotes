@@ -41,6 +41,10 @@ features                                  :
     description                           : Get your daily dose of completely randomized quotes.
     fontawesome_icon_name                 : magic
 
+  - title                                 : Get Spontaneous reminders
+    description                           : Get notified with random quotes daily
+    fontawesome_icon_name                 : bell
+
   - title                                 : Save Quotes
     description                           : Save the quotes you like for later.
     fontawesome_icon_name                 : save
