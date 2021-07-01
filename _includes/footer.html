@@ -4,11 +4,11 @@
 	{% endif %}
 	<div class="footerIcons">
 
-		{% if site.facebook_username %}
-			<a href="https://facebook.com/{{ site.facebook_username }}">
-				<span class="fa-stack fa-1x">
+		{% if site.medium_username %}
+			<a href="https://{{ site.medium_username }}.medium.com" aria-label="Medium profile">
+				<span class="fa-stack fa-1x" aria-hidden="true">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-					<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
+					<i class="socialIconTop fab fa-medium-m fa-stack-1x"></i>
 				</span>
 			</a>
 		{% endif %}
@@ -42,11 +42,11 @@
 
 	</div>
 	<div class="footerLinks">
-		{% for page in site.pages %}
-			<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+		{% assign sorted_pages = site.pages | sort:"page_order" %}
+		{% for page in sorted_pages %}
+		{% unless page.is_hidden %}
+		<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+		{% endunless %}
 		{% endfor %}
-		{% if site.presskit_download_link %}
-			<a href="{{ site.presskit_download_link }}">Press Kit</a>
-		{% endif %}
 	</div>
 </footer>
