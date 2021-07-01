@@ -2,7 +2,7 @@
 layout: page
 title: Feedback
 permalink: /feedback
-page_order: 3
+page_order: 2
 ---
 
 
